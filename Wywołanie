@@ -1,0 +1,46 @@
+while True:
+    wybor=input("A=Figury 3d  B=Figury 2d ")
+
+    if wybor == "B":
+        wybor1 = input("A = Kwadrat | B = Prostokąt | C = Równoległobok | D = Trapez | E = Trójkąt | F = Trójkąt równoboczny | G = Koło | H = Romb | I = Lina \n:")
+
+        if wybor1 == "A":
+            Kwadrat()
+        if wybor1 == "B":
+            Prostokat()
+        if wybor1 == "C":
+            Rownoleglobok()
+        if wybor1 == "D":
+            Trapez()
+        if wybor1 == "E":
+            Trojkat()
+        if wybor1 == "F":
+            Trojkat_Rownoboczny()
+        if wybor1 == "G":
+            Kolo()
+        if wybor1 == "H":
+            Romb()
+        if wybor1 == "I":
+            lina()
+    if wybor == "A":
+        wybor1 = input("A = sześcian | B = Prostopadłościan | C = Graniastosłup | D = Ostrosłup | E = Walca | F = Stożka | G = Kuli \n: ")
+        if wybor1 == "A":
+            Szescian()
+
+        if wybor1 == "B":
+            Prostopadloscian()
+
+        if wybor1 == "C":
+            Graniastoslup()
+
+        if wybor1 == "D":
+            Ostroslup()
+
+        if wybor1 == "E":
+            Walec()
+
+        if wybor1 == "F":
+            Stozek()    
+
+        if wybor1 == "G":
+            Kula()
